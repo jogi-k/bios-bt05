@@ -1,2 +1,6 @@
 # bios-bt05
-Update BIOS of BT-05 with a Teensy
+Automated Update BIOS of Gene BT-05 with a Teensy 
+
+- sending the respective keystrokes via Teensy to BT-05 on power-on 
+- Uses teensyduino, tested with Teensy-LC and Teensy 3.0 with Arduino 1.0.6
+ 
