@@ -77,8 +77,8 @@ void loop()
             usb_keyboard_press_and_delay( KEY_RIGHT , 0);
         }
 
-        // go down to to first entry
-        for( i = 0; i < 3; ++i )
+        // go down to to first entry (depends on the connected drives, this one works with connected mSATA)
+        for( i = 0; i < 2; ++i )
         {
             usb_keyboard_press_and_delay( KEY_DOWN , 0);
         }
